@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f6f1">
   <meta name="color-scheme" content="only light">
+  <meta name="supported-color-schemes" content="light">
+  <meta name="theme-color" content="#f6f6f1">
   <meta name="description" content="Your day changes. Your plan should, too. Amono is an adaptive calendar designed for the way life actually works.">
   <title>Amono — Your day changes. Your plan should, too.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
 :root {
+  color-scheme: only light;
   --ivory: #f7f6f1;
   --forest: #18392c;
   --deep: #11271e;
@@ -1500,12 +1502,6 @@ h1, h2, h3, p { hyphens: none; text-wrap: pretty; }
 }
 
 </style>
-
-  <style id="amono-light-scheme-protection">
-    /* Amono uses an intentionally light brand palette. Do not auto-invert it for device dark mode. */
-    :root, html, body, input, textarea, select, button { color-scheme: only light; }
-    html, body { background-color: #f7f6f1; }
-  </style>
 </head>
 <body>
   <div class="site-wrap">
